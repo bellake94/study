@@ -21,6 +21,10 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     runtimeOnly('org.springframework.boot:spring-boot-devtools')
     compileOnly 'org.projectlombok:lombok:1.18.24'
+    // https://mvnrepository.com/artifact/org.postgresql/postgresql
+    implementation group: 'org.postgresql', name: 'postgresql', version: '42.4.3'
+    implementation 'org.slf4j:slf4j-log4j12:2.0.5'
+
 
 }
 
