@@ -24,8 +24,10 @@ dependencies {
     // https://mvnrepository.com/artifact/org.postgresql/postgresql
     implementation group: 'org.postgresql', name: 'postgresql', version: '42.4.3'
     implementation 'org.slf4j:slf4j-log4j12:2.0.5'
-
-
+    // https://mvnrepository.com/artifact/io.springfox/springfox-swagger2
+    implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+    // Swagger 2
+    implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
 }
 
 test {
