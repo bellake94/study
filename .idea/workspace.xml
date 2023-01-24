@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b7d13927-2399-4f81-b810-d2b76526658c" name="변경" comment="postgreSql DB 설정 적용">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="b7d13927-2399-4f81-b810-d2b76526658c" name="변경" comment="테스트용 api 추가, swagger 적용">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bellake/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bellake/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/bellake/jpa/JpaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bellake/cust/controller/CustController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bellake/cust/controller/CustController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bellake/cust/controller/CustController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bellake/cust/entity/CustMEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bellake/cust/entity/CustMEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bellake/cust/repository/CustMRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bellake/cust/entity/repository/CustMRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/bellake/cust/service/CustService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/bellake/cust/service/CustService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,18 +47,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="study" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="application" type="c8890929:TasksNode$1" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="study" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="study" type="f1a62948:ProjectNode" />
-                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
-                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+                <item name="실행 구성" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -169,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670606718830</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="테스트용 api 추가, swagger 적용">
+      <created>1670650430580</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670650430580</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -196,6 +197,14 @@
     <MESSAGE value="init studyProject" />
     <MESSAGE value="Spring boot 설정 적용" />
     <MESSAGE value="postgreSql DB 설정 적용" />
-    <option name="LAST_COMMIT_MESSAGE" value="postgreSql DB 설정 적용" />
+    <MESSAGE value="테스트용 api 추가, swagger 적용" />
+    <option name="LAST_COMMIT_MESSAGE" value="테스트용 api 추가, swagger 적용" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.bellake.cust.controller.CustController" memberName="custService" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

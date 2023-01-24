@@ -15,9 +15,9 @@ import javax.persistence.Table;
 public class CustMEntity {
     @Id
     @Column(name = "CUST_NO")
-    private String custNo;
+    private Integer custNo;
     @Column(name = "CUST_NM")
     private String custNm;
     @Column(name = "CUST_AGE")
-    private String custAge;
+    private Integer custAge;
 }
