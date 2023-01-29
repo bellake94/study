@@ -1,10 +1,9 @@
-package org.bellake.cust.service;
+package org.bellake.study.cust.service;
 
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
-import org.bellake.cust.dto.CustInfoDTO;
-import org.bellake.cust.entity.CustMEntity;
-import org.bellake.cust.entity.repository.CustMRepository;
+import org.bellake.study.cust.entity.CustMEntity;
+import org.bellake.study.cust.entity.repository.CustMRepository;
+import org.bellake.study.cust.dto.CustInfoDTO;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

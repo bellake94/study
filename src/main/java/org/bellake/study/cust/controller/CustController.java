@@ -1,9 +1,9 @@
-package org.bellake.cust.controller;
+package org.bellake.study.cust.controller;
 
 import io.swagger.annotations.Api;
 import lombok.AllArgsConstructor;
-import org.bellake.cust.dto.CustInfoDTO;
-import org.bellake.cust.service.CustService;
+import org.bellake.study.cust.dto.CustInfoDTO;
+import org.bellake.study.cust.service.CustService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package org.bellake.cust.dto;
+package org.bellake.study.cust.dto;
 
 import lombok.Data;
 

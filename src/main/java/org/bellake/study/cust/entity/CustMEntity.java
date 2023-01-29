@@ -1,4 +1,4 @@
-package org.bellake.cust.entity;
+package org.bellake.study.cust.entity;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

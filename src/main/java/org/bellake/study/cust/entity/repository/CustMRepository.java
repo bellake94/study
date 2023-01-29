@@ -1,6 +1,6 @@
-package org.bellake.cust.entity.repository;
+package org.bellake.study.cust.entity.repository;
 
-import org.bellake.cust.entity.CustMEntity;
+import org.bellake.study.cust.entity.CustMEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
