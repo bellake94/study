@@ -4,9 +4,7 @@ import io.swagger.annotations.Api;
 import lombok.AllArgsConstructor;
 import org.bellake.study.cust.dto.CustInfoDTO;
 import org.bellake.study.cust.service.CustService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -30,5 +28,13 @@ public class CustController {
     @GetMapping("/v1/allcust")
     public List<CustInfoDTO> retrieveAllCust(){
         return custService.retrieveAllCust();
+    }
+    @PostMapping("/v1")
+    public String createCust(CustInfoDTO custDto) {
+        return custService.createCust(custDto);
+    }
+    @PutMapping("/v1")
+    public String updateCust(CustInfoDTO custDto) {
+        return custService.updateCust(custDto);
     }
 }

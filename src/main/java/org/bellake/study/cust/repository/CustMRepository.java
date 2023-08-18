@@ -1,4 +1,4 @@
-package org.bellake.study.cust.entity.repository;
+package org.bellake.study.cust.repository;
 
 import org.bellake.study.cust.entity.CustMEntity;
 import org.springframework.data.jpa.repository.JpaRepository;

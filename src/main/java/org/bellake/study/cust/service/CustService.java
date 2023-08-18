@@ -2,7 +2,7 @@ package org.bellake.study.cust.service;
 
 import lombok.AllArgsConstructor;
 import org.bellake.study.cust.entity.CustMEntity;
-import org.bellake.study.cust.entity.repository.CustMRepository;
+import org.bellake.study.cust.repository.CustMRepository;
 import org.bellake.study.cust.dto.CustInfoDTO;
 import org.springframework.stereotype.Service;
 
@@ -39,5 +39,27 @@ public class CustService {
             custInfo.setCustAge(entity.getCustAge());
             return custInfo;
         }).collect(Collectors.toList());
+    }
+
+    public String createCust(CustInfoDTO custDto) {
+        CustMEntity newEntity = new CustMEntity(custDto.getCustNo(), custDto.getCustNm(), custDto.getCustAge());
+        custMRepository.save(newEntity);
+        return custDto.getCustNo().toString();
+    }
+
+    public String updateCust(CustInfoDTO custDto) {
+        if (custDto.getCustNo() != null) {
+            Optional<CustMEntity> custMEntity = custMRepository.findById(custDto.getCustNo());
+
+            custMEntity.ifPresent(entity -> {
+                entity.update(custDto.getCustNm() == null ? entity.getCustNm() : custDto.getCustNm(),
+                        custDto.getCustAge() == null ? entity.getCustAge() : custDto.getCustAge());
+
+                custMRepository.save(entity);
+            });
+
+            return custDto.getCustNo().toString();
+        }
+        return null;
     }
 }
